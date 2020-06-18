@@ -1,3 +1,52 @@
 body {
-    background: url(./bg-intro-desktop.png);
+    background: url(./bg-intro-desktop.png)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem;
+    background-color: rgba(252, 186, 3, .4);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 7%;
+}
+
+hr {
+    width: 80%;
+}
+
+.fb {
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background-color: #4267B2;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container input {
+    padding: 0.5rem;
+    width: 70%;
+}
+
+/*To set width of checkbox.*/
+.container input[type=checkbox] {
+    width: auto;
+}
+
+.btn {
+    padding: 1rem;
+    background-color: #2ecc71;
+    font-size: 1rem;
+    width: 50%;
+    border-radius: 7px;
+    border: none;
 }
